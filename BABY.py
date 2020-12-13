@@ -105,9 +105,9 @@ TOOLS/Password = "baby"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;91m📋 \x1b[1;95mTool Username \x1b[1;91m»» \x1b[1;91m")
-    if (username == CorrectUsername):
+    if (username == TOOLS/Username):
     	password = raw_input("\033[1;91m🗝 \x1b[1;95mTool Password \x1b[1;91m»» \x1b[1;91m")
-        if (password == CorrectPassword):
+        if (password == TOOLS/Password):
             print "Logged in successfully as " + username #Dev:baby
 	    time.sleep(2)
             loop = 'false'
@@ -129,7 +129,7 @@ def login():
 		print 42*"\033[1;96m="
 		print('\033[1;96m[⚡] \x1b[1;91m───Login your new ID───\x1b[1;93m[⚡]' )
 		id = raw_input('\033[1;93m[+] \x1b[0;34mEnter ID/Email \x1b[1;95m: \x1b[1;95m')
-		pwd = raw_input('\033[1;95m[+] \x1b[0;34mEnter Pass \x1b[1;93m: \x1b[1;93m')
+		pwd = raw_input('\033[1;95m[+] \x1b[0;34mEnter Password \x1b[1;93m: \x1b[1;93m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
