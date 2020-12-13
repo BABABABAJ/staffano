@@ -93,14 +93,14 @@ print  """
 
 
 
-TOOLSUsername = BABY"
-TOOLSPassword = "BABY"
+TOOLUsername = BABY"
+TOOLPassword = "BABY"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;91m📋 \x1b[1;95mTool Username \x1b[1;91m»» \x1b[1;91m")
-    if (username == TOOLSUsername):
+    if (username == TOOLUsername):
     	password = raw_input("\033[1;91m🗝 \x1b[1;95mTool Password \x1b[1;91m»» \x1b[1;91m")
-        if (password == TOOLSPassword):
+        if (password == TOOLPassword):
             print "Logged in successfully as " + username #Dev:baby
 	    time.sleep(2)
             loop = 'false'
